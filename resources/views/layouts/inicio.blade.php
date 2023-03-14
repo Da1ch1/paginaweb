@@ -19,16 +19,16 @@
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">       
               <link href="{{ asset('material') }}/demo/navbar.css" rel="stylesheet">
               <link href="{{ asset('material') }}/demo/terminos.css" rel="stylesheet">
-     
+              <link href="{{ asset('material') }}/demo/inicio.css" rel="stylesheet">
     </head>
     <body class="hero-anime">	
          <!--navbar -->
                 @extends('sieweb.navbar')
           <!--navbar -->
-                
-          <div class=" full-height">
-            <div class="absolute-center">
-                <div class="mt-1">
+          
+          <div class="full-height">
+            <div class="absolute-flex">
+                <div class="mt-4">
                     <div class="container ">
                       @yield('carusel')
                         </div>			

@@ -1,0 +1,25 @@
+.section{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.section .carousel{
+   
+}
+
+
+ /* Laptops*/
+ @media screen and (max-width: 1500px) {
+
+ }
+
+  /* tablets y movil*/
+ @media screen and (max-width: 1097px) {
+  
+ }
+body.dark .section{
+    color: #fff;
+    background-color: #101116;
+  }
