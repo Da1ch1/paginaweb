@@ -1,14 +1,34 @@
 .section{
-    background-color: #fff;
-    padding: 15px;
+    background-color: #f8f8f8e1;
+    padding: 18px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.section .carousel{
-   
+.absolute-flex{
+   margin-top: 95px;
 }
 
+.carousel-inne{
+    margin: 20px;
+    
+}
+.carousel-item img{
+  padding: 10px;
+}
+
+
+/*formulario*/
+.for{
+  width: 500px;
+  margin-top: 4px;
+}
+
+.btn{
+  
+  width: 300px;
+  
+}
 
  /* Laptops*/
  @media screen and (max-width: 1500px) {

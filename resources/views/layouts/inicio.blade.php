@@ -20,13 +20,14 @@
               <link href="{{ asset('material') }}/demo/navbar.css" rel="stylesheet">
               <link href="{{ asset('material') }}/demo/terminos.css" rel="stylesheet">
               <link href="{{ asset('material') }}/demo/inicio.css" rel="stylesheet">
+              <link rel="stylesheet" href="{{asset('material')}}//demo/botonfloat.css">
     </head>
-    <body class="hero-anime">	
+    <body class="hero-anime ">	
          <!--navbar -->
                 @extends('sieweb.navbar')
           <!--navbar -->
           
-          <div class="full-height">
+          <div class="">
             <div class="absolute-flex">
                 <div class="mt-4">
                     <div class="container ">
@@ -36,13 +37,28 @@
               </div>
           </div>
           
-                
-        
-                  @extends('sieweb.footer')
+                @extends('sieweb.botnfloat')
+
+
+                <br>
+                <div class="">
+                  <div class="absolute">
+                      <div class="mt-9">
+                          <div class="container ">
+                            @yield('formulario')
+                              </div>			
+                          </div>
+                    </div>
+                </div>
+                    
+
+
+                @extends('sieweb.footer')
         
             <!-- Jquery needed--> 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="js/scripts.js"></script>
+            
             
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
              <!-- Bootstrap 4 -->
