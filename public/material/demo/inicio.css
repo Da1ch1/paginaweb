@@ -1,10 +1,17 @@
 .section{
-    background-color: #f8f8f8e1;
+    background-color: #86cfecab;
     padding: 18px;
+    width: 550px;
+    margin-left: 250px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-
+.section img{
+  float: right;
+  margin-bottom: 9px;
+  padding: 2;
+  width: 95px;
+}
 .absolute-flex{
    margin-top: 95px;
 }
@@ -25,8 +32,8 @@
 }
 
 .btn{
-  
-  width: 300px;
+  margin-left: 135px;
+  width: 200px;
   
 }
 
@@ -38,8 +45,35 @@
   /* tablets y movil*/
  @media screen and (max-width: 1097px) {
   
- }
-body.dark .section{
-    color: #fff;
-    background-color: #101116;
-  }
+    }
+
+    @media (max-width: 466px) {
+
+      .for{
+        width: 290px;
+        margin-top: 4px;
+      }
+      
+      .btn{
+        margin-left: 80px;
+        width: 100px;
+        
+      }
+     
+      .section{
+        background-color: #86cfecab;
+        padding: 18px;
+        width: 320px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .section img{
+      width: 75px;
+    }
+    }
+
+    body.dark .section{
+        color: #fff;
+        background-color: #101116;
+      }

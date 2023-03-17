@@ -1,9 +1,9 @@
         
-        <div class="navigation-wrap bg-light start-header start-style">
+       <div class="navigation-wrap bg-light start-header start-style">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <nav class="navbar navbar-expand-md navbar-light">
+                        <nav class="navbar navbar-expand-lg navbar-light">
                         
                             <a  href="{{url('/') }}" ><img src="{{ asset('material/images/Logosie-azul-png.png') }}" width="90"  alt=""></a>	
                             
@@ -80,6 +80,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <script src="{{ asset('material') }}/js/nav.js"></script>
-        
+        </div> 
+                  
+    <script src="{{ asset('material') }}/js/nav.js"></script>

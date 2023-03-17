@@ -20,6 +20,7 @@
               <link href="{{ asset('material') }}/demo/navbar.css" rel="stylesheet">
               <link href="{{ asset('material') }}/demo/terminos.css" rel="stylesheet">
               <link href="{{ asset('material') }}/demo/inicio.css" rel="stylesheet">
+              <link href="{{ asset('material') }}/demo/nav.scss" rel="stylesheet">
               <link rel="stylesheet" href="{{asset('material')}}//demo/botonfloat.css">
     </head>
     <body class="hero-anime ">	

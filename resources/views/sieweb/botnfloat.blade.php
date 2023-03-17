@@ -41,7 +41,7 @@
   <div class="mes-us">Messenger </div>
   <div class="clear"></div>
 </a>
-<!--Boton de instagram-->
+<!--Boton de instagram
     <a class="wh-widget-button button-slide-out" href="#" rel="noopener nofollow" target="_blank" title="">
   <div class="wh-widget-button-icon wh-messenger-bg-instagram">
     <div>
@@ -50,7 +50,7 @@
   </div>
   <div class="mes-us">Instagram</div>
   <div class="clear"></div>
-</a>
+</a>-->
 <!--/Boton de instagram-->
 
 

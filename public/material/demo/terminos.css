@@ -332,6 +332,8 @@ body.dark .card-body{
   }
   
   @media (max-width: 320px) {
+
+    
     .term {
       text-align: center;
       padding: 11px;
