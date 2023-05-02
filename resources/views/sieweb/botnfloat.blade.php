@@ -14,7 +14,7 @@
     </div>
     <div class="wh-animation-in" id="wh-call-to-action" style="top: 25px; font-size: 9px">
       <a href="javascript:void(0)" title="">
-        <div class="wh-call-to-action-content">Contactanos para mas información</div>
+        <div class="wh-call-to-action-content">Contáctanos para más información</div>
       </a>
     </div>
     <div class="wh-widget-send-button-wrapper-list">

@@ -24,6 +24,31 @@ class SieController extends Controller
     {
         return view('inicio');
     }
+
+    public function servicios()
+    {
+        return view('servicios.contabilidad');
+    }
+
+    public function servicios2(){
+        return view('servicios.capacitacion');
+    }
+
+    public function servicios3(){
+        return view('servicios.soporte');
+    }
+
+    public function servicios4(){
+        return view('servicios.programacion');
+    }
+
+    public function servicios5(){
+        return view('servicios.diseñoymarketing');
+    }
+
+    public function servicios6(){
+        return view('servicios.talleres');
+    }
     /**
      * Show the form for creating a new resource.
      *

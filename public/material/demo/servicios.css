@@ -1,0 +1,353 @@
+.row{
+    border-radius: 10px;
+    bottom: 25px;
+}
+.row .col-md-6 img{
+    border-radius: 10px;
+}
+
+body.dark .absolute .mt-10 .b ul li{
+    background-color: #101116;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    
+}
+
+/* Channel banner */
+
+.channel-banner {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.589)), url("../images/contabilidadbaner.jpg") no-repeat center 35%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-banner .text h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 840px;
+        margin-top: -15px;
+}
+
+.absolute .mt-10 .c {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 55px;
+}
+
+.absolute .mt-10 .container  .t0{
+   
+    position: absolute;
+}
+
+
+.absolute .mt-10 .container .t4{
+        text-align: right;  
+        top: 0; 
+}
+.absolute .mt-10 .container .t4 .t5{
+    position: relative;
+    top: 40px;
+}
+
+
+
+@media screen and (max-width: 478px){
+    .channel-banner {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/contabilidadbaner.jpg") no-repeat center 35%;
+        background-size: cover;
+        padding: 1.6rem;
+    }
+    .channel-banner .text h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 180px;
+        margin-top: -5px;
+    }
+    .absolute .mt-10 .c {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 45px;
+    }
+    .absolute .mt-10 .container  .t0 .t3{
+   
+        font-size: 9px;
+    }
+    .absolute .mt-10 .container .t2{
+        font-size: 15px;
+    }   
+    .absolute .mt-10 .container .t1{
+            font-size: 15px;
+    }
+    .absolute .mt-10 .container .t4 .t5{
+           font-size: 9px;
+    }
+    
+}
+
+/* Channel banner  Soporte */
+
+.channel-bannersoporte {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)), url("../images/soportetecnico.jpg") no-repeat center 45%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-bannersoporte .textsoporte h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 890px;
+        margin-top: -15px;
+}
+
+.absolute .mt-10 .b {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    
+}
+.absolute .mt-10 .b ul {
+        
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.absolute .mt-10 .b ul li{
+    margin-bottom: 8px;
+    margin-left: 10px;
+    
+}
+.absolute .mt-10 .b .t1{
+    position: relative;
+    
+    margin-bottom: 50px;
+    
+}
+
+
+
+@media screen and (max-width: 478px){
+    .channel-bannersoporte {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        background-size: cover;
+        padding: 1.8rem;
+    }
+    .channel-bannersoporte .textsoporte h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 195px;
+        margin-top: -5px;
+    }
+
+    .absolute .mt-10 .b {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        
+    }
+    .absolute .mt-10 .b ul {
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .absolute .mt-10 .b ul li{
+        font-size: 11px;
+        margin-left: 10px;
+        
+    }
+    .absolute .mt-10 .b .t1{
+        position: relative;
+        
+        margin-bottom: 10px;
+        
+    }
+}
+
+/* Channel banner  Programación */
+
+.channel-bannerprogramacion {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)), url("../images/programing.jpg") no-repeat center 45%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-bannerprogramacion .textprogramacion h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 870px;
+        margin-top: -15px;
+}
+
+@media screen and (max-width: 478px){
+    .channel-bannerprogramacion {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        background-size: cover;
+        padding: 1.8rem;
+    }
+    .channel-bannerprogramacion .textprogramacion h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 195px;
+        margin-top: -5px;
+    }
+}
+
+/* Channel banner  Diseño */
+
+.channel-bannerdiseño {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)), url("../images/Diseño1.jpeg") no-repeat center 35%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-bannerdiseño .textdiseño h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 870px;
+        margin-top: -15px;
+}
+
+@media screen and (max-width: 478px){
+    .channel-bannerdiseño {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        background-size: cover;
+        padding: 1.8rem;
+    }
+    .channel-bannerdiseño .textdiseño h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 195px;
+        margin-top: -5px;
+    }
+}
+
+/* Channel banner  Capacitación */
+
+.channel-bannercapacitacion {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)), url("../images/capaci.jpeg") no-repeat center 45%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-bannercapacitacion .textcapacitacion h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 870px;
+        margin-top: -15px;
+}
+
+@media screen and (max-width: 478px){
+    .channel-bannercapacitacion {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        background-size: cover;
+        padding: 1.8rem;
+    }
+    .channel-bannercapacitacion .textcapacitacion h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 195px;
+        margin-top: -5px;
+    }
+}
+
+/* Channel banner  Talleres */
+
+.channel-bannertaller {
+    flex-basis: 16vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)), url("../images/taller1.jpg") no-repeat center 45%;
+    background-size: cover;
+    padding: 6.6rem;
+}
+
+.channel-bannertaller .texttaller h2{
+    
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 870px;
+        margin-top: -15px;
+}
+
+@media screen and (max-width: 478px){
+    .channel-bannertaller {
+        flex-basis: 16vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        background-size: cover;
+        padding: 1.8rem;
+    }
+    .channel-bannertaller .texttaller h2{
+        font-size: 11px;
+        color: aliceblue;
+        position: absolute;
+        left: 0;
+        margin-left: 195px;
+        margin-top: -5px;
+    }
+}

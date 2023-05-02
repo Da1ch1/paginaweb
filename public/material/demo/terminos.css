@@ -17,9 +17,9 @@ body.dark .card-body{
     
   }
   .mt-12{
-    margin-top: 400px !important; 
-    margin-bottom: 550px !important;
-    margin-left: 400px;
+    margin-top: 200px !important; 
+    margin-bottom: 150px !important;
+    margin-left: 500px;
   }
   .card-body{
     width: 800px;
@@ -34,7 +34,9 @@ body.dark .card-body{
    overflow: hidden;
    overflow-y: scroll;
   }
-
+.absolute-center{
+  
+}
   /* Laptops*/
   @media screen and (max-width: 1500px) {
  
