@@ -265,37 +265,37 @@
       </li>
       <li class="carouselitem" tabindex="0">
         <div class="carousel__box">
-          <div class="carousel__image"><img src="" width="480" height="720"/></div>
+          <div class="carousel__image"><img src="{{asset('material/images/capacitacion.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
-            <h2 class="user__name">Leah Harris</h2>
-            <h3 class="user__title">Designer and Bandit</h3>
+            <h2 class="user__name">Capacitación</h2>
+            <a href="#"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
       <li class="carouselitem" tabindex="0">
         <div class="carousel__box">
-          <div class="carousel__image"><img src="" width="480" height="720"/></div>
+          <div class="carousel__image"><img src="{{asset('material/images/talleres.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
-            <h2 class="user__name">Gal Gadot</h2>
-            <h3 class="user__title">Acting Designer and Consultant</h3>
+            <h2 class="user__name">Talleres</h2>
+            <a href="#"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
       <li class="carouselitem" tabindex="0">
         <div class="carousel__box">
-          <div class="carousel__image"><img src="" width="480" height="720"/></div>
+          <div class="carousel__image"><img src="{{asset('material/images/Contpaqi.jpg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
-            <h2 class="user__name">Albert Sørensen</h2>
-            <h3 class="user__title">Neural Big Shot of Anticipation</h3>
+            <h2 class="user__name">Contpaqi</h2>
+            <a href="#"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
       <li class="carouselitem" tabindex="0">
         <div class="carousel__box">
-          <div class="carousel__image"><img src="" width="480" height="720"/></div>
+          <div class="carousel__image"><img src="{{asset('material/images/Aspel.jpg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
-            <h2 class="user__name">Candice Marchand</h2>
-            <h3 class="user__title">Mindful Realist of Motion Laws </h3>
+            <h2 class="user__name">Aspel</h2>
+            <a href="#"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
