@@ -104,25 +104,24 @@
           <div class="section">
             <img src="{{ asset('material/images/Logosie-azul-png.png') }}"   alt="">
             <div class="for container">
-            <form>
+            <form action="https://formsubmit.co/401c2256a2491f4c9c7887cfe07356f6" method="POST">
               <!-- Name input -->
               <div class="form-outline mb-2">
-               <br>
-                <input type="text" id="form4Example1" class="form-control" placeholder="Nombre"/>
-              </div>
-            
-              <!-- Email input -->
-              <div class="form-outline mb-2">
                 <br>
-                <input type="email" id="form4Example2" class="form-control" placeholder="Email"/>
-              </div>
-            
-              <!-- Message input -->
-              <div class="form-outline mb-2">
-               <br>
-                <input type="text" class="form-control" id="form4Example3" rows="2" placeholder="Número">
-              </div>
-            
+                 <input type="text" id="form4Example1" class="form-control" placeholder="Nombre" name="Nombre del cliente"/>
+               </div>
+             
+               <!-- Email input -->
+               <div class="form-outline mb-2">
+                 <br>
+                 <input type="email" id="form4Example2" class="form-control" placeholder="Email" name="Correo electronico"/>
+               </div>
+             
+               <!-- Message input -->
+               <div class="form-outline mb-2">
+                <br>
+                 <input type="text" class="form-control" id="form4Example3" rows="2" placeholder="Número" name="Numero telefonico">
+               </div>
               <!-- Checkbox -->
               <div class="form-check d-flex justify-content-center mb-2">
                 <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
@@ -135,6 +134,8 @@
                 <br>
               <!-- Submit button -->
               <button type="submit" class="btn btn-primary btn-block mb-2">Enviar</button>
+              <input type="hidden" name="_next" value="htpp://localhost/8001" >
+              <input type="hidden" name="_captcha" value="false" >
             </form>
              
            </div>

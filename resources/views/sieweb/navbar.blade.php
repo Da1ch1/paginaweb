@@ -42,7 +42,7 @@
                                         <a class="nav-link" href="#">Conócenos</a>
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" href="#">Catálogos</a>
+                                        <a class="nav-link" href="{{url('/Catalogos')}}">Catálogos</a>
                                     </li>
                                       
                                 </ul>
