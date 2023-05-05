@@ -32,6 +32,9 @@
     }
   });
 
+
+  
+})(jQuery); 
   //Switch light/dark
 
   $("#dl-icon").on("click", function () {
@@ -42,22 +45,21 @@
       $("body").addClass("dark");
       $("#dl-icon").addClass("bi bi-sun-fill");
     }
+    //Guardando el modo oscuro en localstorage
+    if(document.body.classList.contains('dark')){
+      localStorage.setItem('dark-mode', 'true');
+    } else{
+      localStorage.setItem('dark-mode', 'false');
+    }
   });
-  
-})(jQuery); 
+    //Obteniendo el modo actual.
+    if(localStorage.getItem('dark-mode') === 'true'){
+      $("body").addClass("dark");
+      $("#dl-icon").addClass("bi bi-sun-fill");
+    } else{
+      $("body").removeClass("dark");
+      $("#dl-icon").removeClass("bi bi-sun-fill");
+    }
 
 
-/*const temaOscuro = () => {
-  document.querySelector("body").setAttribute("data-bs-theme", "dark");
-  document.querySelector("#dl-icon").setAttribute("class", "bi bi-sun-fill");
-}
 
-const temaClaro = () => {
-document.querySelector("body").setAttribute("data-bs-theme", "light");
-document.querySelector("#dl-icon").setAttribute("class", "bi bi-moon-fill");
-}
-
-const cambiarTema = () => {
-document.querySelector("body").getAttribute("data-bs-theme") === "light"?
-temaOscuro() : temaClaro();
-}*/

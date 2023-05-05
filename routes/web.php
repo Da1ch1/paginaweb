@@ -25,3 +25,6 @@ Route::get('/Soporte', [SieController::class, 'servicios3'])->name('servicios.so
 Route::get('/Programacion', [SieController::class, 'servicios4'])->name('servicios.programacion');
 Route::get('/Diseño y Marketing', [SieController::class, 'servicios5'])->name('servicios.diseñoymarketing');
 Route::get('/Talleres', [SieController::class, 'servicios6'])->name('servicios.talleres');
+Route::get('/Contpaqi', [SieController::class, 'contpaq'])->name('servicios.contpaqi');
+Route::get('/Aspel', [SieController::class, 'aspel'])->name('servicios.aspel');
+

@@ -49,6 +49,14 @@ class SieController extends Controller
     public function servicios6(){
         return view('servicios.talleres');
     }
+
+    public function contpaq(){
+        return view('servicios.contpaqi');
+    }
+
+    public function aspel(){
+        return view('servicios.aspel');
+    }
     /**
      * Show the form for creating a new resource.
      *

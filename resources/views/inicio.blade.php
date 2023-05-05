@@ -152,8 +152,8 @@
 
 <!--secciones--> 
 @section('secciones')
-
-<!--<div class="options">
+<!--
+<div class="options">
   <div class="option active" style="background-image:url('../material/images/pacosoporte.jpeg');">
      <div class="shadow"></div>
      <div class="label">
@@ -221,9 +221,9 @@
        </div>
     </div>
   </div>
-</div>-->
+</div>
 
-
+-->
 <main id="app">
   <section class="carousel1">
     <ul class="carousellist">
@@ -232,7 +232,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/pacosoporte.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Soporte</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Soporte')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
@@ -241,7 +241,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/Diseñomarketing.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Diseño y Marketing</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Diseño y Marketing')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
@@ -250,7 +250,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/programacion.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Programación</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Programacion')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
@@ -268,7 +268,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/capacitacion.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Capacitación</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Capacitacion')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
@@ -277,7 +277,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/talleres.jpeg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Talleres</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Talleres')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>
@@ -286,7 +286,7 @@
           <div class="carousel__image"><img src="{{asset('material/images/Contpaqi.jpg')}}" width="480" height="720"/></div>
           <div class="carousel__contents">
             <h2 class="user__name">Contpaqi</h2>
-            <a href="#"><h3 class="user__title">Más información</h3></a>
+            <a href="{{url('/Contpaqi')}}"><h3 class="user__title">Más información</h3></a>
           </div>
         </div>
       </li>

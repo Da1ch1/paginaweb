@@ -28,22 +28,12 @@
                                             <a class="dropdown-item" href="{{url('/Talleres')}}">Talleres</a>
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CONTPAQi</a>
+                                        <a class="nav-link"  href="{{url('/Contpaqi')}}" role="button" aria-haspopup="true" aria-expanded="false">CONTPAQi</a>
                                        
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ASPEL</a>
-                                     <!--   <div class="dropdown-menu">
-                                            
-                                            <a class="dropdown-item" href="#">ASPEL SAE</a>
-                                            <a class="dropdown-item" href="#">ASPEL COI</a>
-                                            <a class="dropdown-item" href="#">ASPEL NOI</a>
-                                            <a class="dropdown-item" href="#">ASPEL FACTURE</a>
-                                            <a class="dropdown-item" href="#">ASPEL CAJA</a>
-                                            <a class="dropdown-item" href="#">ASPEL BANCO</a>
-                                            <a class="dropdown-item" href="#">ASPEL PROD</a>
-                                            <a class="dropdown-item" href="#">ASPEL ADM</a>
-                                        </div>-->
+                                        <a class="nav-link"  href="{{url('/Aspel')}}" role="button" aria-haspopup="true" aria-expanded="false">ASPEL</a>
+                                     
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="#">Blog</a>
