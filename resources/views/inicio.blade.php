@@ -104,7 +104,7 @@
           <div class="section">
             <img src="{{ asset('material/images/Logosie-azul-png.png') }}"   alt="">
             <div class="for container">
-            <form action="https://formsubmit.co/401c2256a2491f4c9c7887cfe07356f6" method="POST">
+            <form id="formulario" action="https://formsubmit.co/401c2256a2491f4c9c7887cfe07356f6" method="POST">
               <!-- Name input -->
               <div class="form-outline mb-2">
                 <br>
@@ -124,7 +124,7 @@
                </div>
               <!-- Checkbox -->
               <div class="form-check d-flex justify-content-center mb-2">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4"  />
                 <br>
                 <label class="form-check-label" for="form4Example4">
                   <br>
@@ -133,7 +133,30 @@
               </div>
                 <br>
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-2">Enviar</button>
+              <div class="cta">
+                <button class="button" type="submit">
+                  <span class="default">Enviar</span>
+                  <span class="success">
+                    <svg viewBox="0 0 16 16">
+                      <polyline points="3.75 9 7 12 13 5" />
+                    </svg>
+                    Enviado!
+                  </span>
+                  <svg class="trails" viewBox="0 0 33 64">
+                    <path
+                      d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"
+                    />
+                    <path
+                      d="M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60"
+                    />
+                  </svg>
+                  <div class="plane">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                  </div>
+                </button>
+                
+              </div>
               <input type="hidden" name="_next" value="htpp://localhost/8001" >
               <input type="hidden" name="_captcha" value="false" >
             </form>
@@ -147,6 +170,8 @@
           <a  class="stretched-link"></a>
         </div>
       </div>
+      <script src="{{asset('material/js/formulario.js')}}"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 @endsection
 
 

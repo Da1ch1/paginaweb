@@ -36,7 +36,7 @@
                                      
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link" href="{{url('/Blogs')}}">Blog</a>
                                     </li>
                                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                         <a class="nav-link" href="#">Conócenos</a>

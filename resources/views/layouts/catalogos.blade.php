@@ -24,7 +24,7 @@
               <link rel="stylesheet" href="{{asset('material')}}//demo/botonfloat.css">
               <link rel="stylesheet" href="{{asset('material/demo/secciones.css')}}">
               <link rel="stylesheet" href="{{asset('material/demo/carusel.css')}}">
-              <link rel="stylesheet" href="{{asset('material/demo/catalogos.css')}}">
+              @vite(['resources/css/catalogos.css','resources/js/catalogo.js'])
               
               
 

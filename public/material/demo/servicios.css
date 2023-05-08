@@ -19,8 +19,9 @@ body.dark .absolute .mt-10 .b ul li{
 .channel-banner {
     flex-basis: 16vw;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.589)), url("../images/contabilidadbaner.jpg") no-repeat center 35%;
     background-size: cover;
     padding: 6.6rem;
@@ -30,9 +31,8 @@ body.dark .absolute .mt-10 .b ul li{
     
         color: aliceblue;
         position: absolute;
-        left: 0;
-        margin-left: 840px;
-        margin-top: -15px;
+        
+        
 }
 
 .absolute .mt-10 .c {

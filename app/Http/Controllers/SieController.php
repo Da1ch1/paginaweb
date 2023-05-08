@@ -61,6 +61,26 @@ class SieController extends Controller
     public function catalogos(){
         return view('servicios.catalogos');
     }
+
+    public function blog(){
+        return view('servicios.blog');
+    }
+
+    public function bloghappy(){
+        return view('blogs.happytalismo');
+    }
+
+    public function blogcfdi(){
+        return view('blogs.cfdi');
+    }
+
+    public function blogbuzon(){
+        return view('blogs.buzon');
+    }
+
+    public function blogcarta(){
+        return view('blogs.carta');
+    }
     /**
      * Show the form for creating a new resource.
      *

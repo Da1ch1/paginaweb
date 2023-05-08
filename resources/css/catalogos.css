@@ -1,0 +1,160 @@
+.row{
+    border-radius: 10px;
+    bottom: 25px;
+  }
+  .row .col-md-5 img{
+    border-radius: 10px;
+  }
+  
+  body.dark .absolute .mt-10 .b ul li{
+    background-color: #101116;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    
+  }
+  
+  /* Channel banner */
+  
+  .channel-bannercatalogos{
+      flex-basis: 16vw;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.589)), url("/public/material/images/fondo-catalogo.jpg") no-repeat center 60%;
+      background-size: cover;
+      padding: 6.6rem;
+  }
+  
+  .channel-bannercatalogos .textcatalogos h2{
+      
+          color: aliceblue;
+          position: absolute;
+          left: 0;
+          margin-left: 860px;
+          margin-top: -15px;
+  }
+  
+  
+  
+  @media screen and (max-width: 478px){
+      .channel-bannercatalogos {
+          flex-basis: 16vw;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.5)), url("/public/material/images/fondo-catalogo.jpg") no-repeat center 49%;
+          background-size: cover;
+          padding: 1.9rem;
+      }
+      .channel-bannercatalogos .textcatalogos h2{
+          font-size: 11px;
+          color: aliceblue;
+          position: absolute;
+          left: 0;
+          margin-left: 170px;
+          margin-top: -5px;
+      }
+      
+      .row .catalogo p {
+      
+        
+        margin-top: 5px;
+        font-size: 12px;
+      }
+      .container-fluid {
+    	
+        display: flex;
+          justify-content: center;
+          margin-bottom: 5px;
+          
+      }
+      .button{
+        
+        width: 55px;
+        height: 30px;
+        margin: 4px;
+      }
+      
+  }
+  
+  .row .catalogo h5{
+    position: relative;
+    
+      font-weight: 500;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      overflow: hidden;
+  }
+
+ 
+  .row .catalogo h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 23em;
+    background-color: #000;
+    -webkit-animation: slide-in 1s ease-in both 0.5s;
+            animation: slide-in 1s ease-in both 0.5s;
+  }
+  
+  body.dark .row .catalogo h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 23em;
+    background-color: #56bbff;
+    -webkit-animation: slide-in 1s ease-in both 0.5s;
+            animation: slide-in 1s ease-in both 0.5s;
+  }
+  
+
+  iframe{
+    border-radius: 10px;
+  }
+  
+
+  .button {
+    --background: #275efe;
+    --text: #fff;
+    --font-size: 2px;
+    --duration: .5s;
+    --move-hover: -4px;
+    --shadow: 0 2px 8px -1px #{rgba(#275efe, .32)};
+    --shadow-hover: 0 4px 20px -2px #{rgba(#275efe, .5)};
+    
+    font-family: 'Roboto';
+    line-height: var(--font-size);
+    border-radius: 4px;
+   
+    outline: none;
+    border: none;
+    
+    
+    cursor: pointer;
+    background: var(--background);
+    color: var(--text);
+    
+    
+    
+    
+    
+    transform: translateY(var(--y));
+    transition: transform var(--duration) ease, box-shadow var(--duration) ease;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+  }
+
+  .container-fluid {
+    	
+    display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+      
+  }
+  

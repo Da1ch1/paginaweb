@@ -1,0 +1,30 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.row .textosblog{
+    padding: 30px;
+}
+.textosblog p{
+    font-size: 14px;
+}
+.textosblog h4{
+    font-size: 16px;
+}
+.imgblog{
+    padding: 30px;
+}
+
+.col-md-6 .cfdi{
+    padding: 25px;
+}
+.imgblog .bg-image{
+    
+    border-radius: 10px;
+    width: 400px;
+
+}
+
+.imgblog .bg-image img{
+    border-radius: 10px;
+    width: 400px;
+}
+

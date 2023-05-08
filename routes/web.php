@@ -28,4 +28,10 @@ Route::get('/Talleres', [SieController::class, 'servicios6'])->name('servicios.t
 Route::get('/Contpaqi', [SieController::class, 'contpaq'])->name('servicios.contpaqi');
 Route::get('/Aspel', [SieController::class, 'aspel'])->name('servicios.aspel');
 Route::get('/Catalogos', [SieController::class, 'catalogos'])->name('servicios.catalogos');
+Route::get('/Blogs', [SieController::class, 'blog'])->name('servicios.blog');
 
+//Rutas de blogs
+Route::get('/Happytalismo', [SieController::class, 'bloghappy'])->name('blogs.happytalismo');
+Route::get('/CFDI', [SieController::class, 'blogcfdi'])->name('blogs.cfdi');
+Route::get('/Buzon', [SieController::class, 'blogbuzon'])->name('blogs.buzon');
+Route::get('/Carta', [SieController::class, 'blogcarta'])->name('blogs.carta');

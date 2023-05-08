@@ -26,6 +26,7 @@
               <link rel="stylesheet" href="{{asset('material/demo/secciones.css')}}">
               <link rel="stylesheet" href="{{asset('material/demo/carusel.css')}}">
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+              @vite(['resources/scss/formulario.scss'])
     </head>
     <body  class="hero-anime " data-bs-theme="light">	
          <!--navbar -->
@@ -118,6 +119,7 @@
 <!------------------------------------------------------------------------------------------------------------->
                 @extends('sieweb.footer')
             <!-- Jquery needed--> 
+            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="js/scripts.js"></script>
             <script src="{{asset('material/js/secciones.js')}}"></script>
