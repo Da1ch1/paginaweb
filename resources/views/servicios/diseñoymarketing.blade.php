@@ -27,7 +27,7 @@
           <div class="container ">
             <div class="row no-gutters bg-light position-relative">
               <div class="col-md-6 mb-md-0 p-md-4">
-                <img src="{{asset('material/images/diseno1.jpg')}}" class="w-100" alt="...">
+                <video autoplay loop playsinline style="border-radius: 10px" src="{{asset('material/videos/Marketing .mp4')}}" class="w-100" alt="..."></video>
               </div>
               <div class="col-md-5 position-static p-4 pl-md-0">
                 <h5 class="mt-0">Diseño</h5>

@@ -104,7 +104,7 @@
           <div class="section">
             <img src="{{ asset('material/images/Logosie-azul-png.png') }}"   alt="">
             <div class="for container">
-            <form id="formulario" action="https://formsubmit.co/401c2256a2491f4c9c7887cfe07356f6" method="POST">
+            <form id="formulario" action="https://formsubmit.co/f455a19fe8496daaee2f2ad836a90ad1" method="POST">
               <!-- Name input -->
               <div class="form-outline mb-2">
                 <br>
@@ -157,7 +157,7 @@
                 </button>
                 
               </div>
-              <input type="hidden" name="_next" value="htpp://localhost/8001" >
+              <input type="hidden" name="_next" value="htpp://localhost/8003" >
               <input type="hidden" name="_captcha" value="false" >
             </form>
              
